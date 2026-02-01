@@ -1,0 +1,30 @@
+[
+  {
+    "code": "HIGH_RISK_INDUSTRY",
+    "description": "高风险行业 - 检查是否涉及高风险行业",
+    "severity": "high",
+    "law": "《商业银行法》",
+    "category": "risk"
+  },
+  {
+    "code": "RELATED_PARTY",
+    "description": "关联方交易 - 检查是否存在关联方交易",
+    "severity": "medium",
+    "law": "《上市公司信息披露》",
+    "category": "risk"
+  },
+  {
+    "code": "LITIGATION_RISK",
+    "description": "诉讼风险 - 检查是否存在未决诉讼",
+    "severity": "high",
+    "law": "《民事诉讼法》",
+    "category": "risk"
+  },
+  {
+    "code": "FINANCIAL_RISK",
+    "description": "财务风险 - 检查是否存在财务风险",
+    "severity": "critical",
+    "law": "《企业会计准则》",
+    "category": "risk"
+  }
+]

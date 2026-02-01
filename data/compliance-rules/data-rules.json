@@ -1,0 +1,30 @@
+[
+  {
+    "code": "PERSONAL_INFO",
+    "description": "个人信息保护 - 检查是否妥善保护个人信息",
+    "severity": "critical",
+    "law": "《个人信息保护法》第32条",
+    "category": "data"
+  },
+  {
+    "code": "DATA_LICENSE",
+    "description": "数据使用授权 - 检查数据使用是否获得授权",
+    "severity": "high",
+    "law": "《数据安全法》",
+    "category": "data"
+  },
+  {
+    "code": "CROSS_BORDER",
+    "description": "跨境数据传输 - 检查是否存在跨境数据传输",
+    "severity": "critical",
+    "law": "《网络安全法》",
+    "category": "data"
+  },
+  {
+    "code": "DATA_RETENTION",
+    "description": "数据保存期限 - 检查数据保存是否超过期限",
+    "severity": "medium",
+    "law": "《征信业管理条例》",
+    "category": "data"
+  }
+]

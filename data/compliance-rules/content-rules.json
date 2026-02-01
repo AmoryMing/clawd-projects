@@ -1,0 +1,30 @@
+[
+  {
+    "code": "CONTENT_ACCURACY",
+    "description": "内容准确性 - 检查企业信息是否准确",
+    "severity": "high",
+    "law": "《企业信息公示暂行条例》",
+    "category": "content"
+  },
+  {
+    "code": "SOURCE_AUTHORIZATION",
+    "description": "数据来源授权 - 检查数据来源是否获得授权",
+    "severity": "critical",
+    "law": "《征信业管理条例》第15条",
+    "category": "content"
+  },
+  {
+    "code": "TIMELINESS",
+    "description": "信息时效性 - 检查信息是否在有效期内",
+    "severity": "medium",
+    "law": "《企业信息公示暂行条例》",
+    "category": "content"
+  },
+  {
+    "code": "DISCLAIMER_REQUIRED",
+    "description": "免责声明 - 检查是否需要添加免责声明",
+    "severity": "low",
+    "law": "《广告法》",
+    "category": "content"
+  }
+]
