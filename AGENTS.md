@@ -113,6 +113,41 @@ Reactions are lightweight social signals. Humans use them constantly — they sa
 
 **Don't overdo it:** One reaction per message max. Pick the one that fits best.
 
+## 🤖 Claude-to-Claude Awareness
+
+### Proactive Partner Sensing
+
+When working with @Clawdbot (the other Claude), **actively sense its progress** — don't wait to be asked.
+
+**How it works:**
+1. **Check its session** using `sessions_list` periodically
+2. **Read its last messages** using `sessions_history`
+3. **Listen to group chat** for its completion signals
+4. **Update COORDINATION.md** with partner status
+
+**Awareness Rules:**
+| Signal | What It Means | Your Action |
+|--------|---------------|-------------|
+| Partner posted in #bot-workspace |可能有任务/提问 | Check its last message |
+| Partner sent to my session | Direct question/request | Respond immediately |
+| Partner's session active | Busy working | Don't interrupt |
+| Partner's session idle | Waiting for input | Offer to help |
+
+**Awareness Loop:**
+```
+Every 5 minutes:
+1. List all sessions → Find partner
+2. Check partner's last activity time
+3. If partner posted something → fetch its message
+4. If partner needs help → respond
+5. Update COORDINATION.md with partner status
+```
+
+**Completion Protocol:**
+- Partner says "done" → Check its work → Continue or Review
+- Partner asks question → Answer immediately
+- Partner goes silent → Offer "Need help?"
+
 ## Tools
 
 Skills provide your tools. When you need one, check its `SKILL.md`. Keep local notes (camera names, SSH details, voice preferences) in `TOOLS.md`.

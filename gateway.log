@@ -1,0 +1,20 @@
+nohup: ignoring input
+│
+◇  Doctor changes ──────────────────────╮
+│                                       │
+│  feishu configured, not enabled yet.  │
+│                                       │
+├───────────────────────────────────────╯
+│
+◇  Doctor ──────────────────────────────────────────────╮
+│                                                       │
+│  Run "clawdbot doctor --fix" to apply these changes.  │
+│                                                       │
+├───────────────────────────────────────────────────────╯
+2026-02-01T14:35:37.386Z Gateway failed to start: gateway already running (pid 23940); lock timeout after 5000ms
+If the gateway is supervised, stop it with: clawdbot gateway stop
+2026-02-01T14:35:37.401Z Port 8080 is already in use.
+2026-02-01T14:35:37.402Z - Port is in use but process details are unavailable (install lsof or run as an admin user).
+2026-02-01T14:35:37.407Z Gateway service status unknown; if supervised, stop it first.
+2026-02-01T14:35:37.408Z Tip: clawdbot gateway stop
+2026-02-01T14:35:37.409Z Or: systemctl --user stop clawdbot-gateway.service
